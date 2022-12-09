@@ -3,8 +3,8 @@ var fs = require('fs');
 var url = require('url');
 var qs = require('querystring');
 
-// const PORT = process.env.PORT
-const PORT = 8080;
+const PORT = process.env.PORT
+// const PORT = 8080;
 
 http.createServer(function (req, res) 
   {
